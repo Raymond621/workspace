@@ -88,7 +88,7 @@ s32 main(void)
     while(1) 
 			{
         LED2_TOGGLE();//Make sure function worked
-				LED3_TOGGLE();//Make sure function worked
+//				LED3_TOGGLE();//Make sure function worked
 				i2c_data_read(I2C1,0x00,i2c_rxbuffer,4);//This ffunction is to read I2C Slave data
 				printf(" %x H: %x M: %x S day %x\n",i2c_rxbuffer[2],i2c_rxbuffer[1],i2c_rxbuffer[0],i2c_rxbuffer[3]);//Use debug port to see data
 				DELAY_Ms(998);//delay one Sec to Read data(or use Timer
