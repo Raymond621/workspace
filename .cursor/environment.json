@@ -1,0 +1,4 @@
+{
+  "name": "MM32F0144C6P Firmware (GPIO_Toggle)",
+  "install": "bash .cursor/install.sh"
+}

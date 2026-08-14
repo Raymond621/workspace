@@ -1,0 +1,8 @@
+# Build output
+build/
+
+# Editor / OS cruft
+*.o
+*.d
+*.map
+.DS_Store
